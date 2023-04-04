@@ -1,4 +1,4 @@
-///fewfefgeiuftesuyfgsftyesfetsuy
+//Taza popoxutyun 
 class Grass{
     constructor(x,y){
         this.x = x
