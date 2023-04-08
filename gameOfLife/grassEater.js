@@ -23,7 +23,8 @@ class GrassEater extends LivingCreature{
 
     chooseCell(char){
         this.getNewCoordinates()
-        return  super.chooseCell(char)
+        return super.chooseCell(char)
+
    }
 
 

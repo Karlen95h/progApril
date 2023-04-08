@@ -1,13 +1,11 @@
-//Taza popoxutyun 
 class Grass extends LivingCreature{
     constructor(x,y){
         super(x,y)
         this.multiply = 0
-        this.directions = []
+        this.directions = [];
     
     }
     
-
     mul(){
          this.multiply+= 5
           let emptyCell = this.chooseCell(0)
