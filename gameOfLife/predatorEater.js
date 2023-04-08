@@ -1,6 +1,6 @@
-class PredatorEater extends LivingCreature{
+class PredatorEater extends LivingCreature {
     constructor(x, y) {
-        super(x,y)
+      super(x,y)
         this.energy = 50
         this.directions = []
     }
@@ -21,7 +21,7 @@ class PredatorEater extends LivingCreature{
 
     chooseCell(char) {
         this.getNewCoordinates()
-        return  super.chooseCell(char)
+        return super.chooseCell(char)
 
     }
 

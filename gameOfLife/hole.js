@@ -1,6 +1,7 @@
-class Hole extends LivingCreature {
+class Hole {
     constructor(x, y) {
-       super(x,y)
+        this.x = x
+        this.y = y
         this.directions = [
             [this.x - 1, this.y - 1],
             [this.x, this.y - 1],

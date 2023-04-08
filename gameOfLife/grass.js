@@ -1,8 +1,9 @@
+//Taza popoxutyun 
 class Grass extends LivingCreature{
     constructor(x,y){
         super(x,y)
         this.multiply = 0
-        this.directions = [];
+
     
     }
     

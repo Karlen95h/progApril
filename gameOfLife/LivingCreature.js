@@ -1,4 +1,4 @@
-class LivingCreature {
+class LivingCreature{
     constructor(x,y){
         this.x = x
         this.y = y
@@ -14,6 +14,8 @@ class LivingCreature {
         ];
     
     }
+    
+
 
     chooseCell(char){
         let found = []
@@ -37,5 +39,6 @@ class LivingCreature {
         return found
 
    }
+
 
 }
