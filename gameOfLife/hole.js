@@ -1,7 +1,8 @@
-class Hole {
+let LivingCreature = require("./LivingCreature")
+
+module.export = class Hole extends LivingCreature {
     constructor(x, y) {
-        this.x = x
-        this.y = y
+       super(x,y)
         this.directions = [
             [this.x - 1, this.y - 1],
             [this.x, this.y - 1],
